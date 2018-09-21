@@ -13,6 +13,7 @@
 		184DDCBE214CF6B10037E3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184DDCBD214CF6B10037E3DA /* Assets.xcassets */; };
 		184DDCC1214CF6B10037E3DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DDCBF214CF6B10037E3DA /* LaunchScreen.storyboard */; };
 		3971AA658E4E3F09CC6B5236 /* Pods_UploadImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86E76F2CBBFFB152498FF20 /* Pods_UploadImage.framework */; };
+		E07770722154E346000ADBCB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E07770712154E346000ADBCB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		430D4C49B85224898121DA4B /* Pods-UploadImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UploadImage/Pods-UploadImage.debug.xcconfig"; sourceTree = "<group>"; };
 		499680905FB26777E403D5AC /* Pods-UploadImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-UploadImage/Pods-UploadImage.release.xcconfig"; sourceTree = "<group>"; };
 		C86E76F2CBBFFB152498FF20 /* Pods_UploadImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UploadImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07770712154E346000ADBCB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				184DDCBD214CF6B10037E3DA /* Assets.xcassets */,
 				184DDCBF214CF6B10037E3DA /* LaunchScreen.storyboard */,
 				184DDCC2214CF6B10037E3DA /* Info.plist */,
+				E07770712154E346000ADBCB /* GoogleService-Info.plist */,
 			);
 			path = UploadImage;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 				TargetAttributes = {
 					184DDCB2214CF6B00037E3DA = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -149,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184DDCC1214CF6B10037E3DA /* LaunchScreen.storyboard in Resources */,
+				E07770722154E346000ADBCB /* GoogleService-Info.plist in Resources */,
 				184DDCBE214CF6B10037E3DA /* Assets.xcassets in Resources */,
 				184DDCBC214CF6B00037E3DA /* Main.storyboard in Resources */,
 			);
@@ -351,14 +356,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJH7BE9B39;
 				INFOPLIST_FILE = UploadImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LuyenMP.BigZero.UploadImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BigZero.UploadImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -369,14 +375,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJH7BE9B39;
 				INFOPLIST_FILE = UploadImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LuyenMP.BigZero.UploadImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BigZero.UploadImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
