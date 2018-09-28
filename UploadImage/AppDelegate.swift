@@ -18,6 +18,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        let storageRef = Storage.storage().reference()
+        // Points to the root reference
+        let imageRef = storageRef.child("images")
+        // Points to "ruoi_bird.png"
+        // Note that you can use variables to create child values
+        let fileName = "ruoi_bird.png"
+        let birdRef = imageRef.child(fileName)
+        // File path is "images/space.jpg"
+        let path = birdRef.fullPath
+        // File name is "ruoi_bird.png"
+        let name = birdRef.name
+        // Points to "images"
+        let images = birdRef.parent()
         return true
     }
 

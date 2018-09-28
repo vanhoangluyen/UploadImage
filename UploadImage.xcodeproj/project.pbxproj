@@ -14,6 +14,7 @@
 		184DDCC1214CF6B10037E3DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DDCBF214CF6B10037E3DA /* LaunchScreen.storyboard */; };
 		3971AA658E4E3F09CC6B5236 /* Pods_UploadImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86E76F2CBBFFB152498FF20 /* Pods_UploadImage.framework */; };
 		E07770722154E346000ADBCB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E07770712154E346000ADBCB /* GoogleService-Info.plist */; };
+		E07770742154EF54000ADBCB /* ruoi_bird.png in Resources */ = {isa = PBXBuildFile; fileRef = E07770732154EF54000ADBCB /* ruoi_bird.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		499680905FB26777E403D5AC /* Pods-UploadImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-UploadImage/Pods-UploadImage.release.xcconfig"; sourceTree = "<group>"; };
 		C86E76F2CBBFFB152498FF20 /* Pods_UploadImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UploadImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07770712154E346000ADBCB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E07770732154EF54000ADBCB /* ruoi_bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruoi_bird.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				184DDCBA214CF6B00037E3DA /* Main.storyboard */,
 				184DDCBD214CF6B10037E3DA /* Assets.xcassets */,
 				184DDCBF214CF6B10037E3DA /* LaunchScreen.storyboard */,
+				E07770732154EF54000ADBCB /* ruoi_bird.png */,
 				184DDCC2214CF6B10037E3DA /* Info.plist */,
 				E07770712154E346000ADBCB /* GoogleService-Info.plist */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				184DDCC1214CF6B10037E3DA /* LaunchScreen.storyboard in Resources */,
 				E07770722154E346000ADBCB /* GoogleService-Info.plist in Resources */,
+				E07770742154EF54000ADBCB /* ruoi_bird.png in Resources */,
 				184DDCBE214CF6B10037E3DA /* Assets.xcassets in Resources */,
 				184DDCBC214CF6B00037E3DA /* Main.storyboard in Resources */,
 			);
